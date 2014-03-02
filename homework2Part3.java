@@ -97,12 +97,12 @@ class Circle
 	
 	double Arg(double a)
 	{
-		return Math.PI * r * r * (a/360);
+		return Math.PI * 2 * r * (a/360);
 	}
 	
 	double Pie(double a)
 	{
-		return Math.PI * r * (a/360);
+		return Math.PI * r * r * (a/360);
 	}
 	
 	void Print(double a)

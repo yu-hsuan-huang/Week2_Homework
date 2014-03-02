@@ -59,7 +59,7 @@ class Circle{
 	
 	public double Area()
 	{
-		return Math.PI * r1;
+		return Math.PI * r1 * r1;
 	}
 	
 	public void Print()
